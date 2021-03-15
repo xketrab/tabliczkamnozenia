@@ -3,5 +3,7 @@ Przykładowe zadanie z podręczników zrobione w 2h.
 
 Pomoc w losowości:  https://stackoverflow.com/questions/7560114/random-number-c-in-some-range
 
+**Instrukcja w pliku instrukcja.txt**
+
 15.03.2021r.
 Stworzone przez: xketrab.
