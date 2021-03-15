@@ -1,0 +1,6 @@
+Tabliczka mnożenia
+Liczbę pytań i zakres tabliczki mnożenia ustala użytkownik, np. 5 pytań i tabliczka do 10
+program losuje zmienne z podanego zakresu i zadaje pytanie np. ile to jest 7*9
+użytkownik odpowiada i otrzymuje komunikat zwrotny w każdym przypadku
+program zlicza poprawne odpowiedzi i oblicza wynik procentowy
+na podstawie wyniku procentowego program wystawia ocenę zgodnie z PZO
