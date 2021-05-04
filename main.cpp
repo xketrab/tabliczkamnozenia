@@ -62,4 +62,32 @@ int main()
     if(31>percent){
         std::cout << "Otrzymujesz ocene 1"<< std::endl;
     }
+
+    if(percent == 100 ){
+        string odpowiedz;
+        int result;
+        cout << "\n\nCzy chcesz dostac pytanie na szostke?(tak, nie)";
+        cin >> odpowiedz;
+        if(odpowiedz == "tak"){
+            int one = distr(gen) + 5;
+            int two = distr(gen) + 4;
+            if((one*two)<216){
+                one += 3;
+                two += 3;
+            }else{
+                cout << "Zadanie Dodatkowe: " << one << " * " << two << " =";
+                cin >> result;
+                if(result == (two * one)){
+                    cout << "\n\nBrawo! Przyklad wykonany prawidlowo! Otrzymujesz ocene 6!" << endl;
+
+                }else{
+                    cout << "Niestety nie udało Ci się odpowiedziec prawidlowo na pytanie :c Ale nadal otrzymujesz ocene 5 c:" << endl;
+                }
+            }
+        }else if(odpowiedz == "nie"){
+            cout << "Szkoda :c Dostajesz ocene 5";
+        }else{
+            cout << "Niepoprawny argument!";
+        }
+    }
 }
