@@ -94,4 +94,6 @@ int main()
 
 /* TODO:
 - limit czasu na odpowiedz,
-- naprawienie funkcji dodatkowego pytanie(na ocene celujaca[6]) */
+- naprawienie funkcji dodatkowego pytanie(na ocene celujaca[6])
+- zmiecic system losowosci(rand(), srand(TIME))
+*/
