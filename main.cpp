@@ -91,3 +91,7 @@ int main()
         }
     }
 }
+
+/* TODO:
+- limit czasu na odpowiedz,
+- naprawienie funkcji dodatkowego pytanie(na ocene celujaca[6]) */
